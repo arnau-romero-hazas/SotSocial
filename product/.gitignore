@@ -1,0 +1,34 @@
+# Ignora cualquier package.json y package-lock.json
+**/package.json
+**/package-lock.json
+
+# Ignora carpetas node_modules en todo el proyecto
+**/node_modules/
+
+# Ignora cualquier archivo .env
+**/.env
+**/.env.*
+
+# Ignora carpetas de build comunes
+**/dist/
+**/build/
+**/.next/
+**/.expo/
+
+# Ignora archivos temporales del sistema
+.DS_Store
+Thumbs.db
+
+# Ignora archivos de logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Ignora cobertura de tests
+coverage/
+
+# Ignora archivos de configuración de editores
+.vscode/
+.idea/
+*.swp

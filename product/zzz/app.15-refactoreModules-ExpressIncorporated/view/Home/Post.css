@@ -1,0 +1,40 @@
+.post{
+    /* para que los posts aprovechen el maximo de ancho del div article*/
+    margin: 3rem 3rem;
+    img{
+        width: 100%;
+
+    }
+    h3, p, .post-footer{
+        padding: 1rem var(--pading-x);
+        border: 5 ;
+    }
+    .post-footer{
+        display: flex;
+        justify-content: space-between;
+    }
+    .headerPost{
+        display: flex;
+        justify-content: space-between;
+        align-items:center;
+        .buttonConfig{
+            background-color: var(--bg-color2);
+            color: black;
+            border: 0;
+            display: flex;
+            width: 20;
+            height: 50%;
+            cursor: pointer;
+            font-family: inherit; /* Para que herede la fuente del html */
+            font-size: 1rem;
+        }
+        .buttonDelete{
+            display: flex;
+            flex-direction: column;
+        }
+        .buttonEdit{
+            display: flex;
+            flex-direction: column;
+        }
+    }
+}

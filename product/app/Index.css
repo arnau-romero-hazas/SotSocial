@@ -1,0 +1,95 @@
+/* Importo fuente */
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+/* Estilo para el html */
+html{
+    font-family: 'Bebas Neue'; /* Así aplicamos la fuente que hemos importado arriba como fuente general de la App*/
+    background-color: var(--bg-color); /* color fondo */
+    color: white; /* color fuente */
+
+    --bg-color: rgb(35, 0, 16); /* defino una variable para poder reutilizarla*/
+    --bg-color2: rgb(222, 0, 100);
+    --pading-x: 1rem;
+}
+
+/* reseteamos el margen del body que trae por defecto*/
+body{
+    margin: 0;
+}
+
+/* Estilo para los anchor */
+a {
+    cursor: pointer; /* para que aparezca la manita en el cursor al pasar por encima */
+    transition: font-size .25s; /* el cambio de tamaño se ara en 2 seg*/
+}
+
+@media only screen and (min-width: 100px){ /*regla para que solo funcione en pantallas mas grandes de 980px ya que el hover solo funciona en dispositivos con cursor (ahora lo tengo desactivado pk no estara pa movil esto de momento)*/
+    /* hover(cuando pasas puntero por encima) para cuando pasas por encima que cambie de color*/
+    a:hover {
+        color: gray; /* cambiara a color gris cuando pase*/
+        font-size: 1.5rem; /*cambiara de tamaño*/
+    }
+}
+
+button {
+    background-color: var(--bg-color2);
+    color: white;
+    border: 0;
+    cursor: pointer;
+    font-family: inherit; /* Para que herede la fuente del html */
+    font-size: 1rem;
+}
+
+/* darle forma a los form */
+form {
+    display: flex;
+    flex-direction: column; /*para que se alineen verticalmente*/
+    gap: .5rem; /* separacion entre elementos*/
+
+    .field{ /* darle forma a los divs que hemos creado con el label y el input */
+        display: flex;
+        flex-direction: column;
+        gap: .25rem;
+    }
+}
+
+input{
+    font-family: inherit; /* los input hereden la fuente*/
+    font-size: 1rem;
+    color: white;
+    background-color: transparent;
+    border: 1px solid  var(--bg-color2);
+    outline: none;
+}
+
+input:focus { /* Para cuando estemos exribiendo en el input */
+    border: 1px solid yellow;
+}
+
+/* Etiquetas para el estilo del autorellenado de nombres y contraseña*/
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus {
+    -webkit-text-font-family: inherit;
+    -webkit-text-fill-color: black;
+    -webkit-box-shadow: 0 0 0px 1000px  #de0064 inset;
+    transition: background-color 5000s ease-in-out 0s;
+}
+
+h1, h2{
+    margin:0;
+}
+
+main{
+    margin-top: 2.5rem;
+}
+
+
+
+.landing{
+    font-size: 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}

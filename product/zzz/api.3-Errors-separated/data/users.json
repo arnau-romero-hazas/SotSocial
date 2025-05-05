@@ -1,0 +1,47 @@
+[
+    {
+        "name": "Marc Ramos",
+        "email": "marc@ramos.com",
+        "username": "marc",
+        "password": "123123123",
+        "createdAt": "2025-03-13T14:36:54.252Z",
+        "modifiedAt": null,
+        "id": "m87gd1f1geq"
+    },
+    {
+        "name": "Arnau Romero",
+        "email": "arnau@romero.com",
+        "username": "Arnau",
+        "password": "123123123",
+        "createdAt": "2025-03-13T14:41:46.742Z",
+        "modifiedAt": null,
+        "id": "m87gkfzygnl"
+    },
+    {
+        "name": "Eyla",
+        "email": "ey@la.com",
+        "username": "eyla",
+        "password": "123123123",
+        "createdAt": "2025-03-13T18:21:20.076Z",
+        "modifiedAt": null,
+        "id": "m87odnpocz"
+    },
+    {
+        "name": "Arnau",
+        "email": "aromerohazas@gmail.com",
+        "username": "arnau_sots",
+        "password": "123123123",
+        "createdAt": "2025-03-16T16:27:18.838Z",
+        "modifiedAt": null,
+        "id": "m8bumkzbgmn"
+    },
+    {
+        "name": "bollo",
+        "email": "bo@llo.com",
+        "username": "bollo",
+        "password": "123123123",
+        "createdAt": "2025-03-16T17:39:08.736Z",
+        "modifiedAt": null,
+        "id": "m8bx6yisudt"
+    }
+]

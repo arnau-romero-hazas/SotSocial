@@ -1,0 +1,1 @@
+curl -X GET http://localhost:8080/users/self/name -H 'Authorization: Basic m85us02s8bc' -v

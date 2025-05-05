@@ -1,0 +1,28 @@
+/* src/components/ConfirmToast.css */
+.confirm-toast {
+    text-align: center;
+    font-size: 1rem;
+}
+
+.confirm-toast-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.confirm-btn {
+    background-color: red;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+.cancel-btn {
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
